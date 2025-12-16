@@ -1,0 +1,79 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background: #0d0d0d;
+    color: #ffffff;
+}
+
+header {
+    padding: 40px 20px; /* Internal spacing */
+    text-align: center; /* Centers header content */
+}
+
+h1 {
+    font-size: 3rem; /* Large main title */
+    margin-bottom: 10px; /* Space below title */
+}
+
+.subtitle {
+    font-size: 1.5rem;
+    opacity: 1; /* Slight transparency */
+}
+
+.links {
+    margin-top: 30px;
+    display: flex; /* Aligns horizontally */
+    justify-content: center; /* Centers items */
+    gap: 20px; /* Space between buttons */
+}
+
+.links a {
+    text-decoration: none; /* Removes underline */
+    color: #ffffff;
+    padding: 12px 22px; /* Buttons spacing */
+    border-radius: 30px; /* Rounded corners */
+    transition: 0.5s; /* Smooth hover animation */
+    font-weight: bold; /* Bold text */
+}
+
+.links a:hover {
+    background: #ffffff;
+    color: #000000;
+}
+
+.tagline {
+    margin-top: 20px;
+    opacity: 0.7;
+    font-style: italic;
+}
+
+section {
+    max-width: 900px; /* Section width limits */
+    margin: 60px auto;
+    padding: 0 20px;
+}
+
+h2 {
+    border-left: 4px solid #ffffff; /* Decorative left line */
+    padding-left: 10px; /* Spacing */
+    margin-bottom: 20px; /* Space below */
+}
+
+.projeto {
+    background: #1a1a1a; /* Dark card background */
+    padding: 20px; /* Internal spacing */
+    border-radius: 12px; /* Rounded corners */
+    transition: 0.5s; /* Hover animation */
+}
+
+.projeto:hover {
+    transform: translateY(-5px); /* Lift card slightly */
+}
+
+footer {
+    text-align: center;
+    padding: 40px;
+    opacity: 0.6;
+    font-size: 0.9rem;
+}
